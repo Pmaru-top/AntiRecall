@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.21'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.21'
+
+    id 'net.mamoe.mirai-console' version '2.10.1'
+}
+
+group = 'top.cutestar.antiRecall'
+version = '1.0.3'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    mavenCentral()
+}
